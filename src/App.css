@@ -1,0 +1,72 @@
+.App {
+  max-width: 800px;
+  max-height: 800px;
+  margin: 100px auto;
+  padding-left: 500px;
+}
+
+
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+.impact {
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+}
+.button1 {
+  background-color:rgb(4, 29, 46);/* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+}
+
+.button1:hover{
+  background-color:Green;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+}
+
+.App-h1{color: #1aa52b;
+    font-family: cursive;
+    padding-left: 400px;
+ 
+}
+.App-header {
+  background-color: rgb(4, 29, 46);
+  height: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  font-size: 57px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
